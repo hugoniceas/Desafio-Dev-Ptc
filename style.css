@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Roboto Light", sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    color: white;
+}
+
+.music_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#black_box {
+    background-color: black;
+}
+
+#gray_box {
+    background-color: gray;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 150px ;
+    margin-left: 150px
+
+
+}
+
+#purple_box{
+    background-color: purple;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 150px ;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+#pink_box{
+    background-color: palevioletred;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 150px ;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+#brown_box{
+    background-color: saddlebrown;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 150px ;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+#blue_box{
+    background-color: #0d115f;
+    display: flex;
+    align-items:flex-start;
+    margin-right: 150px ;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.album_image{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+#ultuulla_text{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
